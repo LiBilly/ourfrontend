@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>home</title>
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <style type="text/css">
+        body {
+            background-image: url('images/loginbg.jpg');
+            background-size: cover;
+        }
+        .sign-in {
+            text-align: center;
+            top: 40%;
+            left: 40%;
+            position: absolute;
+        }
+        .user-name {
+            background-color: white;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        .icon-user-name {
+            font-size: 20px;
+        }
+        .icon-user-name:before {
+            content: "\e900";
+        }
+        #txtUserName {
+            height: 40px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sign-in">
+        <div class="logo">
+            <img src="images/otms_brand.png">
+        </div>
+        <br>
+        <table>
+            <tbody>
+                <tr class="user-name">
+                    <td><i class="icon-user-name"></i></td>
+                    <td><input type="text" id="txtUserName" name="userName" placeholder="用户名"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
