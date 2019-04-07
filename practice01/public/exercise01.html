@@ -5,8 +5,66 @@
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <title>Index</title>
         <link rel="stylesheet" href="css/font.css">
+        <style type="text/css">
+            body {
+                font-family: fantasy;
+                font-size: 20px;
+                margin: 0 10%;
+                text-align: center;
+                background-color: lightblue;
+            }
+
+            .main {
+                margin: 20% 40%;
+            }
+
+            .control-panel {
+                margin-top: 50px;
+                width: 300px;
+                text-align: left;
+            }
+
+            .control-panel * {
+                margin-top: 10px;
+                font-size: 18px;
+            }
+
+            .control-panel input {
+                height: 20px;
+            }
+
+            .notise-panel {
+                margin-top: 50px;
+                width: 400px;
+                text-align: left;
+                font-size: 16px;
+            }
+
+        </style>
     </head>
     <body>
-        <img src="images/login_pure.png">
+        <div class="main">
+            <h2>欢迎登录这个系统</h2>
+            <div class="control-panel">
+                <span>用户名：</span><input type="text" placeholder="用户名" />
+                <br>
+                <span style="margin-right: 18px;">密码：</span><input type="password" placeholder="密码" />
+                <br>
+                <span style="font-size: 16px; margin-left: 75px;"><input type="checkbox" />记住我 </span>
+                <a href="#" style="font-size: 16px; margin-left: 45px;">忘记密码？</a>
+                <div style="text-align: center;">
+                    <button type="submit">登录</button>
+                    <button type="reset" style="margin-left: 20px;">清空</button>
+                </div>
+            </div>
+            <div class="notise-panel">注意事项：
+                <ol>
+                    <li>保管好账号与密码，不要分享给他人</li>
+                    <li>推荐浏览器为Chrome,Firefox</li>
+                </ol>
+            </div>
+        </div>
+        <hr>
+        <div>this is testing<span>ttt</span></div>
     </body>
 </html>
