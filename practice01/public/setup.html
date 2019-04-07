@@ -5,27 +5,40 @@
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <title>Index</title>
         <link rel="stylesheet" href="css/font.css">
+        <style type="text/css">
+        body{  
+            margin-top:200px;
+            background-color:lightgreen;
+            text-align: center;
+        };
+        .has-left-margin {
+            margin-left: 10px;
+        }
+        .has-left-margin {
+            text-align: left;
+            margin-left: 35px;
+            margin-bottom: 10px;
+        }
+        </style>  
     </head>
     <body>
-      <h2>欢迎登录这个系统</h2> 
-      <p>用户名：
-      <input type="text" placeholder="用户名">
-      </p>
-      <p>密码：
-      <input type="password" placeholder="密码">
-      </p>
-      <input type="checkbox">记住我
-      <a target="_target" href="https://www.baidu.com">忘记密码？</a>
-      <br>
-      <button>登录</button>
-      <button>清空</button>
-      <div>注意事项：</div>
-      <ol>
-          <li>保管好账号与密码，不要分享给他人</li>
-          <li>推荐浏览器为Chrome,Firefox</li>
-      </ol>
-          
-
-    
+        <div style="width: 350px; margin-top: 15%; margin-left: 35%;">
+            <h2>欢迎登录这个系统</h2> 
+            <div class="has-left-margin" style="margin-top: 30px;">用户名：
+                <input type="text" placeholder="用户名"></div>
+            <div class="has-left-margin">密码：&nbsp;&nbsp;&nbsp;
+                <input type="password" placeholder="密码"></div>
+            <div class="has-left-margin">
+                <input type="checkbox">记住我
+                <a target="_target" href="https://www.baidu.com" style="margin-left:25px;">忘记密码？</a>
+            </div>
+            <div class="has-left-margin" style="text-align: center;">
+                <button>登录</button><button style="margin-left:30px;">清空</button></div>
+            <div class="has-left-margin">注意事项：
+            <ol>
+                <li>保管好账号与密码，不要分享给他人</li>
+                <li>推荐浏览器为Chrome,Firefox</li>
+            </ol></div>
+        </div>
     </body>
 </html>
