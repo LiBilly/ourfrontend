@@ -46,7 +46,7 @@ body { font-family: "宋体"; }
 
 ## 常用样式
 ```css
-/* css大部分情况下会使用2种单位,一是px像素,一是em, 默认情况下1em=16px */
+/* css大部分情况下会使用3种单位,一是px像素,一是em, 默认情况下1em=16px, 还有一个是%百分比 */
 div { width: 200px; width: 200em; } /* 宽度 */
 div { min-width: 200px; } /* 最小宽度 */
 div { max-width: 200px; } /* 最大宽度 */
